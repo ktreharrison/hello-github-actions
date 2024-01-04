@@ -1,7 +1,8 @@
 repo_name: ktreharrison/hello-github-actions
-report_id: 4a404be0fd37cdb920b53831df933228
+report_id: ec46af7b6d4b8d31c0baf8ca2d741a36
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T09:27:11+00:00'
+timestamp: '2024-01-04T14:53:49+00:00'
 requested_by: ktreharrison
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ktreharrison/hello-github-actions
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ktreharrison/hello-github-actions
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ktreharrison/hello-github-actions/blob/main/.github/workflows/main.yml
   detection_source: ".github/workflows/main.yml"
   last_updated_by: Ken Harrison
   last_updated_on: 2022-01-08 21:00:54.000000000 Z
@@ -45,6 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/1656/vd4gAekh.png
+  detection_source_url: https://github.com/ktreharrison/hello-github-actions/blob/main/action-a/Dockerfile
   detection_source: action-a/Dockerfile
   last_updated_by: Ken Harrison
   last_updated_on: 2022-01-08 20:54:10.000000000 Z
@@ -57,4 +62,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ktreharrison/hello-github-actions
   detection_source: Repo Metadata
